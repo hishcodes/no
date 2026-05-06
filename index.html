@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>No.</title>
+</head>
+<body>
+  <div id="text"></div>
+
+  <script>
+    const responses = [
+      "No.",
+      "Absolutely not.",
+      "Denied.",
+      "Try again later.",
+      "Production says no.",
+      "Permission denied.",
+      "Nice try.",
+      "Ask your manager.",
+      "Not in this universe.",
+      "Error 403: Dreams forbidden.",
+      "Maybe after reboot.",
+      "DNS said no.",
+      "Firewall blocked your hopes.",
+      "That’s a terrible idea.",
+      "No ❤️"
+    ];
+
+    const random =
+      responses[Math.floor(Math.random() * responses.length)];
+
+    document.getElementById("text").innerText = random;
+  </script>
+</body>
+</html>
